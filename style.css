@@ -1,0 +1,138 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; /* Base font family */
+  }
+  
+  body {
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Darker text color for better readability */
+  }
+  
+  /* Container for Layout */
+  #container {
+    width: 80%;
+    margin: 0 auto; /* Center the container horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Heading */
+  #heading {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Search Section */
+  #search {
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+  }
+  #main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1%;
+  }
+  
+  #searchinput {
+    width: 20%;
+    padding: 5px;
+    border: 1px solid #ccc; /* Light border for input field */
+    border-radius: 2px;
+    font-size: 1rem;
+    
+  }
+  
+  #search-btn {
+    border-style: none;
+    background-color: #843C84; /* Adjust button color as desired */
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 1%;
+    font-size: 1rem;
+  }
+  
+  /* Movie Results */
+  #movieContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    height: 30%;
+  }
+  
+  .card {
+    width: 25%;
+    border: 2px solid #ddd; /* Light gray border */
+    border-radius: 5px;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #fff; /* White background */
+    text-align: center;
+    height: 600px;
+    transition: transform 0.2s ease-in-out; /* Add smooth hover effect */
+  }
+  .card-body h3{
+    margin-top: 2%;
+  }
+  .card-body h3{
+    margin-top: 3%;
+  }
+  .card:hover {
+    transform: scale(1.05); /* Slightly enlarge cards on hover */
+  }
+  
+  .image-div {
+    width: 100%;
+    height: 90%;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .image-div img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Pagination (if applicable) */
+  #page {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 4%;
+  }
+  
+  #page button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: transparent; /* Remove button background color */
+    color: #333; /* Darker text color for buttons */
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out; /* Add button hover effect */
+    width: 30%;
+    
+   
+  }
+  
+  #page button:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+    transform: scale(1.1); /* Slightly enlarge buttons on hover */
+  }
+  
+
+  
