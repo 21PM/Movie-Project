@@ -4,7 +4,7 @@ const movieContiner = document.getElementById("movieContainer");
 const pages = document.getElementById("page");   
 
 const API_KEY =`e80a36da`
-const BASE_URL = `http://www.omdbapi.com/?i=tt3896198&apikey=${API_KEY}`;
+const BASE_URL = `https://www.omdbapi.com/?i=tt3896198&apikey=${API_KEY}`;
 
 //creating function for debounce for optimization
 //debounce is good eg of colsures
